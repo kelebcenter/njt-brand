@@ -217,4 +217,49 @@ Referencia de tono — no necesariamente copys literales:
 
 ---
 
+## 12. NJT Explica
+
+### El principio: transparencia radical
+
+NJT no oculta de qué están hechos sus productos. Los explica.
+
+Mientras la competencia escribe "calidad premium" en todo, NJT hace lo contrario: le enseña al cliente a leer etiquetas, entender materiales y tomar mejores decisiones de compra. Eso genera confianza. La confianza genera comunidad.
+
+**El argumento central: todo depende.**
+El poliéster no es malo — es perfecto para ciertas cosas. El algodón no es superior — es diferente. La calidad no está en el material, está en si ese material es el correcto para ese uso.
+
+### El pilar de contenido
+
+**Nombre:** NJT Explica
+**Formato:** carousels en Instagram, videos cortos en TikTok, notas en web
+**Tono:** el de un amigo que sabe del tema y te explica sin hacerte sentir ignorante
+
+**Estructura de cada pieza:**
+1. La pregunta que todos se hacen (*"¿Por qué las sábanas de algodón cuestan más?"*)
+2. La explicación honesta (*origen del material, proceso, lo que eso implica*)
+3. El remate NJT (*cuándo conviene cada opción y por qué lo que ofrecemos tiene sentido*)
+
+### Materiales — catálogo completo
+
+Ver archivo `njt_explica.md` para el desarrollo completo de cada material.
+
+**Resumen rápido:**
+
+| Material | Qué es | Para qué sirve | Por qué el precio |
+|---|---|---|---|
+| Algodón | Fibra natural | Uso diario, transpirable, calor | Más caro: proceso agrícola + industrial |
+| Poliéster | Fibra sintética | Durabilidad, forma, color | Más accesible: producción industrial |
+| Mezcla | Algodón + poliéster | Lo mejor de ambos | Precio intermedio, equilibrio real |
+| Licra/Elastano | Fibra elástica | Stretch, recuperación de forma | Se agrega en % pequeño para dar movimiento |
+| Microfibra | Poliéster muy fino | Suavidad, fácil cuidado | Accesible + algodón natural |
+
+### Lo que NJT nunca hace al explicar
+
+- Decir que un material es "el mejor" sin contexto
+- Hablar mal de lo accesible
+- Usar tecnicismos sin explicarlos
+- Hacer sentir al cliente que eligió mal en el pasado
+
+---
+
 *Última actualización: Mayo 2026*
