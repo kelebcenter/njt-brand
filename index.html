@@ -701,6 +701,93 @@
       padding: 3px 8px;
       border-radius: 2px;
     }
+
+    /* ── MATERIAL CARD (NJT Explica) ── */
+    .material-card {
+      border: 1px solid var(--gris-claro);
+      border-radius: 8px;
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 160px 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 768px) {
+
+      /* Nav — logo solo, links en fila scrollable abajo */
+      nav {
+        padding: 0 20px;
+        flex-direction: column;
+        height: auto;
+        padding: 12px 20px 0;
+        gap: 0;
+      }
+
+      .nav-logo { padding: 4px 0 10px; }
+
+      .nav-links {
+        width: 100%;
+        gap: 20px;
+        overflow-x: auto;
+        padding-bottom: 12px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .nav-links::-webkit-scrollbar { display: none; }
+
+      .nav-links a { white-space: nowrap; font-size: 11px; }
+
+      /* Hero */
+      .hero { padding: 56px 20px 40px; }
+
+      /* Container */
+      .container { padding: 0 20px; }
+
+      /* Secciones */
+      .section { padding: 48px 0; }
+
+      .section-title { font-size: 36px; margin-bottom: 24px; }
+
+      /* Texto */
+      .lead { font-size: 17px; }
+      .quote { font-size: 24px; }
+      .phrase-item { font-size: 20px; }
+
+      /* Grids → 1 columna */
+      .palette           { grid-template-columns: repeat(2, 1fr); }
+      .attr-grid         { grid-template-columns: 1fr; }
+      .submarca-grid     { grid-template-columns: 1fr; }
+      .examples          { grid-template-columns: 1fr; }
+      .rules             { grid-template-columns: 1fr; gap: 24px; }
+      .channel-grid      { grid-template-columns: 1fr; }
+      .photo-grid        { grid-template-columns: 1fr; }
+
+      /* Material cards NJT Explica */
+      .material-card     { grid-template-columns: 1fr; }
+
+      /* Type specimen */
+      .type-specimen { padding: 20px; }
+      .type-display  { font-size: 40px; }
+      .type-row      { flex-direction: column; gap: 4px; align-items: flex-start; }
+
+      /* Tablas */
+      table  { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+      /* Mix legend */
+      .mix-legend { flex-direction: column; gap: 8px; }
+
+      /* Submarca cards */
+      .submarca-card { padding: 28px; }
+
+      /* Footer */
+      footer { padding: 32px 20px; }
+
+      /* Swatch altura */
+      .swatch-color { height: 80px; }
+    }
   </style>
 </head>
 <body>
@@ -1147,7 +1234,7 @@
 
       <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 40px;">
 
-        <div style="border: 1px solid var(--gris-claro); border-radius: 8px; padding: 24px; display: grid; grid-template-columns: 160px 1fr 1fr; gap: 16px; align-items: start;">
+        <div class="material-card">
           <div>
             <div style="font-weight: 700; font-size: 16px; margin-bottom: 4px;">Algodón</div>
             <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris);">Fibra natural</span>
@@ -1156,7 +1243,7 @@
           <div><div style="font-size: 11px; font-weight: 700; color: var(--gris); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;">Por qué el precio</div><p style="font-size: 14px; margin: 0;">Proceso agrícola + industrial. Depende de cosechas y temporadas.</p></div>
         </div>
 
-        <div style="border: 1px solid var(--gris-claro); border-radius: 8px; padding: 24px; display: grid; grid-template-columns: 160px 1fr 1fr; gap: 16px; align-items: start;">
+        <div class="material-card">
           <div>
             <div style="font-weight: 700; font-size: 16px; margin-bottom: 4px;">Poliéster</div>
             <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris);">Fibra sintética</span>
@@ -1165,7 +1252,7 @@
           <div><div style="font-size: 11px; font-weight: 700; color: var(--gris); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;">Por qué el precio</div><p style="font-size: 14px; margin: 0;">Producción industrial escalable. No depende de ciclos agrícolas.</p></div>
         </div>
 
-        <div style="border: 1px solid var(--gris-claro); border-radius: 8px; padding: 24px; display: grid; grid-template-columns: 160px 1fr 1fr; gap: 16px; align-items: start;">
+        <div class="material-card">
           <div>
             <div style="font-weight: 700; font-size: 16px; margin-bottom: 4px;">Mezcla</div>
             <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris);">Algodón + poliéster</span>
@@ -1174,7 +1261,7 @@
           <div><div style="font-size: 11px; font-weight: 700; color: var(--gris); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;">Por qué el precio</div><p style="font-size: 14px; margin: 0;">Precio intermedio que refleja el mix de fibras. La elección más inteligente para el día a día.</p></div>
         </div>
 
-        <div style="border: 1px solid var(--gris-claro); border-radius: 8px; padding: 24px; display: grid; grid-template-columns: 160px 1fr 1fr; gap: 16px; align-items: start;">
+        <div class="material-card">
           <div>
             <div style="font-weight: 700; font-size: 16px; margin-bottom: 4px;">Licra / Elastano</div>
             <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris);">Fibra elástica</span>
@@ -1183,7 +1270,7 @@
           <div><div style="font-size: 11px; font-weight: 700; color: var(--gris); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;">Por qué el precio</div><p style="font-size: 14px; margin: 0;">Se agrega en bajo porcentaje pero cambia por completo la durabilidad y comodidad de la prenda.</p></div>
         </div>
 
-        <div style="border: 1px solid var(--gris-claro); border-radius: 8px; padding: 24px; display: grid; grid-template-columns: 160px 1fr 1fr; gap: 16px; align-items: start;">
+        <div class="material-card">
           <div>
             <div style="font-weight: 700; font-size: 16px; margin-bottom: 4px;">Microfibra</div>
             <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris);">Cotton touch 90g</span>
